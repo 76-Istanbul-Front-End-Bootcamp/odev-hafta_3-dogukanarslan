@@ -1,0 +1,51 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+button {
+  background-color: #01082e;
+  border: none;
+  border-radius: 100px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+button:hover {
+  opacity: .8;
+}
+
+table#petsTable {
+  width: 600px;
+  text-align: center;
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+table#petsTable thead th {
+  background-color: #01082e;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+table#petsTable td,th {
+	padding: 5px; 
+	border: 1px solid #cccccc; 
+	font-size: 18px;
+}
+
+table#petsTable tbody tr {
+  border: none;
+  transition: color .5s, background-color .5s;
+}
+
+table#petsTable tbody tr:hover {
+  background-color: #59995e;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.box {
+  text-align: center;
+}
